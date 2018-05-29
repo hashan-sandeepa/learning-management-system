@@ -1,0 +1,1 @@
+select count(ct.id) from core_wallet.compartment_transaction  ct where ct.dr_cr=1 AND (ct.narration LIKE '%:topup' OR ct.narration LIKE '%:sales') AND ct.transaction_time >= '2017-07-05' AND ct.transaction_time<='2017-07-07' GROUP BY STR_TO_DATE(ct.transaction_time, '%d/%m/%Y')

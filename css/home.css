@@ -1,0 +1,227 @@
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:0px;
+}
+
+#main{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+#header{
+	height: 40px;
+	background-color:white;
+	border:none;
+	padding-top:10px;
+}
+
+#slider{
+	height: 350px;
+	border:none;
+}
+
+#container{
+	height: 600px;
+	border:none;
+}
+
+#left{ 
+	float: left; 
+	width: auto; 
+	margin-left:10px;
+}
+#right{ 
+	float: right; 
+	width: auto; 
+	margin-right:10px;
+}
+
+
+#center{
+ 	display: inline-block;
+ 	height: 100%;
+}
+
+.link{
+	max-width: : 200px;
+}
+
+#footer{
+	height: 5%;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	color: rgb(50, 158, 104);
+}
+
+li:hover{
+	background-color: white;
+	border:1px solid rgb(50, 158, 104);
+}
+
+li:hover > a{
+	color: rgb(50, 158, 104);
+}
+
+
+div ul li{
+	list-style-type: none;
+	padding: 10px;
+	border:1px solid rgba(255,255,255,0.0);
+	background-color: rgb(50, 158, 104);
+	margin: 20px;
+}
+
+#username{
+	float:right;
+	margin-right:10px;
+	display:inline-block;
+	margin-top:0px;
+	color: rgb(50, 158, 104);
+	margin-top: 5px;
+
+}
+
+#logout{
+	float:right;
+	display:inline-block;
+	margin-right:20px;
+	text-decoration: none;
+	border:1px solid rgb(50, 158, 104);
+	margin-left: -5px;
+	padding: 5px;
+	background-color: rgb(50, 158, 104);
+	color: white;
+}
+
+#logout:hover,#sendBtn:hover{
+	border:1px solid rgb(50, 158, 104);
+	color: rgb(50, 158, 104);
+	background-color: white;
+}
+
+#title{
+	margin-top: 0px;
+	margin-left: 20px;
+	display: inline-block;
+	color: rgb(50, 158, 104);
+	font-size:25px;
+}
+
+#chatTitle{
+	width: 262px;
+	font-size: 20px;
+	text-transform: uppercase;
+	height: 30px;
+	background-color: rgb(50, 158, 104);
+	color: white;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+textarea {
+  width: 260px;
+  height: 250px;
+  border: 1px solid rgb(50, 158, 104);
+  resize: none;
+  font-size: 18px;
+  padding: 10px;
+  padding-left:-10px;
+}
+
+textarea:focus{
+	outline: none;
+}
+
+#msgTxt{
+	border: 1px solid rgb(50, 158, 104);
+	width: 202px;
+	height: 25px;
+	font-size: 18px;
+}
+
+#msgTxt:focus{
+	outline: none;
+}
+
+#sendBtn{
+	width: 74px;
+	height: 29px;
+	background-color: rgb(50, 158, 104);
+	border:1px solid rgb(50, 158, 104);
+	color: white;
+	margin-left: 4px;
+}
+
+#recentTitle{
+	width: 320px;
+	font-size: 20px;
+	text-transform: uppercase;
+	height: 30px;
+	background-color: rgb(50, 158, 104);
+	color: white;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+#uploadBox{
+	border:1px solid rgb(50, 158, 104);
+	padding: 5px;
+}
+
+#uploadFile{
+	width: 260px;
+}
+
+#filesDiv{
+	border:1px solid rgb(50, 158, 104);
+	border-top: none;
+	padding: 5px;
+	padding-left: 10px;
+	height: 535px;
+}
+
+.links{
+	float:right;
+	display:inline-block;
+	text-decoration: none;
+	border:1px solid rgb(50, 158, 104);
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(50, 158, 104);
+	color: white;
+}
+
+.links:hover{
+	border:1px solid rgb(50, 158, 104);
+	color: rgb(50, 158, 104);
+	background-color: white;
+}
+
+hr{
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1.3em 0;
+    padding: 0; 
+}
+
+#subtitle{
+	width: 98%;
+	font-size: 20px;
+	height: 30px;
+	background-color: rgb(50, 158, 104);
+	color: white;
+	padding-left: 20px;
+	margin-bottom: 0px;
+	margin-top:5px;
+}
+

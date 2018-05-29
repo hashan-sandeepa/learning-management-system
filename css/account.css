@@ -1,0 +1,26 @@
+#lbl {
+	width: 200px;
+}
+
+#main{
+	height: 220px;
+}
+
+#login{
+	display:inline-block;
+	margin-right:20px;
+	text-decoration: none;
+	border:1px solid rgb(50, 158, 104);
+	margin-left: -5px;
+	padding: 5px;
+	background-color: rgb(50, 158, 104);
+	color: white;
+	margin-top: 20px;
+	width: 70px;
+}
+
+#login:hover{
+	border:1px solid rgb(50, 158, 104);
+	color: rgb(50, 158, 104);
+	background-color: white;
+}

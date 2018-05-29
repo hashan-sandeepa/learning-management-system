@@ -1,0 +1,75 @@
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-image:url(../image/background.jpg);
+}
+
+#main{
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 360px;
+	height: 285px;
+	border-top: 1px solid rgba(255, 255, 255, 0.0);
+}
+
+#lbl {
+	height: 35px;
+	width: 150px;
+	background-color:rgb(50, 158, 104);
+	color: white;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-left:10px;
+	margin-top: 20px;
+
+}
+
+.field{
+	width: 280px;
+	padding: 5px;
+	font-size: 14px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+#submit {
+	background-color: rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: thin solid  rgba(255, 255, 255, 0.2);
+	color: #FFFFFF;
+}
+#submit:hover {
+	background-color: rgb(50, 158, 104);
+	color: #FFFFFF;
+	border: thin solid #329E68;
+	cursor: pointer;
+}
+
+#submit{
+	outline: none;
+}
+
+.field:focus{
+	outline: 3px solid rgb(50, 158, 104);
+}
+
+#frgtPass,#createAcc{
+	margin-right: 35px;
+	color: white;
+	text-decoration: none;
+}
+
+#frgtPass:hover,#createAcc:hover{
+	color: rgb(50, 158, 104);
+}
+
